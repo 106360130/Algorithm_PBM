@@ -8,7 +8,7 @@ fibonacci_j(n)
 
 function ans = fibonacci_j(n)
 
-if( n == 1 || n == 2)
+if( n == 1 || n == 2)  %記得要有"終止"條件
     ans = 1;
     
 elseif(n>=3)

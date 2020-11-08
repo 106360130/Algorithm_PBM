@@ -14,7 +14,7 @@ https://programmerworld.co/matlab/merge-sort-algorithm-solved-using-recursive-ma
 nums_length = length(nums);
 
 %切半到只剩一個數字就可以停止了
-if(nums_length < 2)
+if(nums_length < 2)  %"終止條件"
     nums_sorted = nums;
     return;
 end
